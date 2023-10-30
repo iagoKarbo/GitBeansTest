@@ -11,6 +11,12 @@ package com.mycompany.gitbeanstest;
 public class GitBeansTest {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+        	int x=3;
+		int y=11;
+		int z = suma( x, y);
+		System.out.println(z);
+	}	
+	static int suma(int a, int b) {
+		return a+b;
+	}
 }
